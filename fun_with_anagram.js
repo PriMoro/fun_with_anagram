@@ -1,3 +1,8 @@
+// Fun With Anagram
+
+// Description
+// Given an array of strings, remove each string that is an anagram of an earlier string, then return the array sorted.
+
 let array = ["code", "doce", "ecod", "framer", "frame"];
 
 function isAnagram(str1, str2) {
@@ -17,7 +22,7 @@ function funWithAnagram(array) {
       }
     }
   }
-  console.log(array);
+  return array.sort();
 }
 
 funWithAnagram(array);
